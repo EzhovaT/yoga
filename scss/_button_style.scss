@@ -1,0 +1,46 @@
+.btn_active {
+    width: 200px;
+    padding: 10px 0;
+    border-radius: 50px;
+    background-color: $color_active;
+    color: #FBFCFC;
+    border-color: $color_active;
+    box-shadow: -3px 3px 10px rgba(138, 41, 43, 0.479);
+    &:focus {
+        outline-style: none;
+    }
+}
+
+.btn {
+    width: 200px;
+    padding: 10px 0;
+    border-radius: 50px;
+    color: $color_active;
+    border: 2px solid $color_active;
+    &:focus {
+        outline-style: none;
+    }
+}
+
+.btn_price {
+    padding: 10px 10px;
+    border-radius: 50px;
+    color: #fff;
+    background-color: rgb(142, 199, 251);
+    border-color: rgb(142, 199, 251);
+    box-shadow: -3px 3px 10px rgba(142, 199, 251, 0.479);
+    margin-bottom: 50px;
+    margin-top: 30px;
+    &:focus {
+        outline-style: none;
+    }
+}
+
+.btn_price_active {
+    background-color: $color_active;
+    border-color: $color_active;
+    box-shadow: -3px 3px 30px rgba(243, 125, 125, 0.479);
+    &:focus {
+        outline-style: none;
+    }
+}

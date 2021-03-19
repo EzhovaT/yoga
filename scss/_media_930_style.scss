@@ -1,0 +1,56 @@
+@media screen and(max-width: 930px) {
+    .container {
+        width: auto;
+    }
+    .footer_card--active {
+        transform: none;
+    }
+    .footer_card {
+        width: 250px;
+    }
+    .card_price::before {
+        width: 35px;
+        height: 45px;
+    }
+    .btn_price {
+        margin: 10px auto;
+    }
+    .card {
+        &_price_span {
+            font-size: 50px;
+        }
+        &_header {
+            display: none;
+        }
+        &_item {
+            margin: 10px auto;
+            &::before {
+                background-size: cover;
+                width: 25px;
+                height: 25px;
+            }
+        }
+    }
+    .descr {
+        min-height: auto;
+        &_item>.text {
+            display: none;
+        }
+    }
+    .descr_item {
+        width: auto;
+        &::before {
+            width: 25px;
+            height: 20px;
+        }
+    }
+    .post {
+        margin-top: 80px;
+        &_items>.text {
+            display: none;
+        }
+    }
+    .btn_price {
+        margin: 10px auto;
+    }
+}

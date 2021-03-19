@@ -1,0 +1,41 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+//переменные
+$color_active: #FF6A6D;
+$color_text: #3B3838;
+//шаблоны
+.title {
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 700;
+    color: $color_text;
+}
+
+.subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    color: $color_text;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 300;
+    color: $color_text;
+    line-height: 40px;
+}
+
+@import "_button_style.scss";
+@import "_header_style.scss";
+@import "_about_style.scss";
+@import "_description_style.scss";
+@import "_post_style.scss";
+@import "_footer_style.scss";
+@import "_media_380_style.scss";
+@import "_media_450_style.scss";
+@import "_media_500_style.scss";
+@import "_media_650_style.scss";
+@import "_media_767_style.scss";
+@import "_media_930_style.scss";
+@import "_media_1200_style.scss";

@@ -1,0 +1,27 @@
+@media screen and(max-width: 380px) {
+    .title {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    .subtitle {
+        font-size: 10px;
+    }
+    .text {
+        font-size: 10px;
+    }
+    .footer_links-title,
+    .footer_link {
+        font-size: 8px;
+    }
+    .descr_item>.subtitle {
+        font-size: 8px;
+    }
+    .descr_item {
+        padding-left: 20px;
+        &::before {
+            top: -3px;
+            width: 15px;
+            height: 15px;
+        }
+    }
+}

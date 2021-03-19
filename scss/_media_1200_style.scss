@@ -1,0 +1,44 @@
+@media screen and(max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .header_link {
+        margin-right: 20px;
+    }
+    .header {
+        background-size: cover;
+        min-height: 1000px;
+        &_content {
+            margin-top: 50px;
+        }
+    }
+    .about_cards {
+        align-items: center;
+        justify-content: center;
+    }
+    .descr {
+        min-height: none;
+        &_wrapper {
+            justify-content: center;
+            padding-top: 80px;
+        }
+        &_block {
+            width: 50%;
+        }
+        &_img {
+            width: 50%;
+        }
+        &_item {
+            width: auto;
+        }
+    }
+    .post {
+        background: none;
+        &_img {
+            width: 50%;
+        }
+    }
+    .footer_card {
+        width: 300px;
+    }
+}

@@ -1,0 +1,88 @@
+@media screen and(max-width: 650px) {
+    .header {
+        background-size: auto;
+        &_content {
+            width: 50%;
+            text-align: center;
+        }
+        &_btn {
+            display: flex;
+        }
+    }
+    .header_content>.text {
+        display: none;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .subtitle {
+        font-size: 18px;
+    }
+    .about {
+        &_header {
+            margin: 0 auto;
+            width: auto;
+            text-align: center;
+        }
+        &_img {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            width: 130px;
+            height: 120px;
+        }
+    }
+    .post {
+        margin-top: 10px;
+        padding-bottom: 40px;
+        &_right {
+            padding-top: 40px;
+        }
+    }
+    .footer {
+        background-size: auto;
+        padding-top: 50px;
+        &_offers {
+            display: flex;
+            justify-content: center;
+            flex-wrap: nowrap;
+            margin-top: 50px;
+        }
+    }
+    .card_list {
+        display: none;
+    }
+    .card {
+        &_subtitle {
+            margin-top: 5px;
+            margin-bottom: 15px;
+        }
+    }
+    .footer {
+        &_card {
+            width: 200px;
+            text-align: center;
+            padding-top: 10px;
+        }
+        &_offers {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        &_links {
+            margin-top: 70px;
+            padding: 40px 10px;
+            &-title {
+                font-size: 15px;
+            }
+            &_link {
+                font-size: 12px;
+            }
+        }
+    }
+    .card_price::before {
+        top: 5px;
+        left: 5px;
+        width: 20px;
+        height: 30px;
+    }
+}
